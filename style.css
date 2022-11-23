@@ -87,7 +87,7 @@ nav {
         
 }
 
-input[type=email] {
+.input-button > input[type=email] {
     width: 70%;
     height: 50px;
     border: 1px solid grey;
@@ -236,5 +236,33 @@ font-weight: bold;
 .fifth-section-texts > h2 {
     font-size: 24px;
     margin-top: -25px;
+}
+
+
+/* Styling for sixth section */
+
+.sixth-section {
+    background-color: black;
+    /* padding-bottom: 40px;
+    border-bottom: 4px grey solid;
+    margin-top: -20px; */
+    
+}
+
+.sixth-section-contents {
+    /* color: white; */
+}
+
+.sixth-section-contents > h1 {
+    /* font-size: 50px; */
+}
+
+.accordion {
+    /* background-color: ; */
+}
+
+#test {
+    background-color: red;
+    
 }
     
