@@ -42,6 +42,7 @@ nav {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    border-bottom: 4px grey solid;
     
     
 }
@@ -67,23 +68,23 @@ nav {
 
 .landing-page-start-contents > p {
     font-size: 24px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: -18px;
 }
 
 .form-label {
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: -22px;
     margin: 10px;
-    
+    width: 120%;
+        
 }
 
 .input-button {
-    margin-top: 10px;
+    margin-top: 15px;
     width: 120%;
     margin-left: -40px;
-    
-    
+        
 }
 
 input[type=email] {
@@ -107,5 +108,36 @@ font-weight: bold;
 
 .input-button button:hover{
     cursor: pointer;
+}
+
+/* Styling for second section */
+
+.second-section {
+    background-color: black;
+    padding-bottom: 40px;
+    border-bottom: 4px grey solid;
+}
+
+.second-section-contents {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin:0 auto ;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.second-section-texts {
+    width: 60%;
+}
+
+.second-section-texts > h1 {
+    font-size: 50px;
+}
+
+.second-section-texts > h2 {
+    font-size: 24px;
 }
     
