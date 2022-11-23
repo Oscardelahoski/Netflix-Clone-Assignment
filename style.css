@@ -139,6 +139,7 @@ font-weight: bold;
 
 .second-section-texts > h2 {
     font-size: 24px;
+    margin-top: -25px;
 }
 
 /* Styling for third section */
@@ -171,5 +172,36 @@ font-weight: bold;
 
 .third-section-texts > h2 {
     font-size: 24px;
+    margin-top: -25px;
+}
+
+/* Styling for fourth section */
+
+.fourth-section {
+    background-color: black;
+    padding-bottom: 20px;
+    border-bottom: 4px grey solid;
+}
+
+.fourth-section-contents {
+    color: white;
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    margin:0 auto ;
+        
+}
+
+.fourth-section-texts {
+    width:45%;
+}
+
+.fourth-section-texts > h1 {
+    font-size: 50px;
+}
+
+.fourth-section-texts > h2 {
+    font-size: 24px;
+    margin-top: -25px;
 }
     
